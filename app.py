@@ -1,5 +1,7 @@
-def greet(name):
-    return f"Hello, {name}! Welcome to GitHub practice."
+def greet(name, age):
+    return f"Hello, {name}! You are {age} years old. Welcome to GitHub practice."
 
 name = input("Enter your name: ")
-print(greet(name))
+age = input("Enter your age: ")
+
+print(greet(name, age))
